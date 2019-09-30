@@ -29,7 +29,7 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Header title="WordPress Headless CMS with a React Frontend WUT" />
+        <Header title="WordPress Headless CMS with a React Frontend" />
         <Main />
         <Footer />
       </React.Fragment>

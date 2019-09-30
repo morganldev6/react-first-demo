@@ -201,8 +201,13 @@ h1 {
 
 header,
 section {
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 50px 0;
+}
+
+footer {
+  padding: 50px 0;
+  background: lightblue;
 }
 
 .bg {
