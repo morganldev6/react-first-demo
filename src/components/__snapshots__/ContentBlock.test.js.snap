@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentBlock shows each line item describing the movie Renders correctly 1`] = `
+<div>
+  <div
+    class="contentBlock"
+  >
+    <h2>
+      :
+    </h2>
+    <p />
+  </div>
+</div>
+`;

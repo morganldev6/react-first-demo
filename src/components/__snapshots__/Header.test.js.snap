@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component Renders correctly 1`] = `
+<div>
+  <header>
+    <div
+      class="wrapper"
+    >
+      <h1>
+        Star Wars Movies
+      </h1>
+      <p>
+        This site demonstrates the use of a WordPress headless CMS for backend with a React frontend built on top.
+      </p>
+    </div>
+  </header>
+</div>
+`;

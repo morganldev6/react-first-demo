@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button to display movie description Renders correctly 1`] = `
+<div>
+  <button
+    class="button"
+    type="button"
+  />
+</div>
+`;

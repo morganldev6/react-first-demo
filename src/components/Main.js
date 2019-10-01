@@ -1,11 +1,13 @@
 import React from "react";
 import Movie from "./Movie";
+import uuid from "uuid/v4";
 
 const Main = ({ movies }) => {
+  console.log(uuid());
   return (
     <div className="wrapper">
-      {movies.map((movie, index) => {
-        return <Movie movie={movie} index={index} />;
+      {movies.map(movie => {
+        return <Movie movie={movie} key={uuid()} />;
       })}
     </div>
   );
