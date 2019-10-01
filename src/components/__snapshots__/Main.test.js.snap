@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component Renders correctly 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="movieBlock"
+    >
+      <div
+        class="contentBlock"
+      >
+        <h2>
+          Title
+          :
+        </h2>
+        <p>
+          Star Wars: Episode VII — The Force Awakens
+        </p>
+      </div>
+      <div
+        class="contentBlock"
+      >
+        <h2>
+          Release Year
+          :
+        </h2>
+        <p>
+          2015
+        </p>
+      </div>
+      <div
+        class="contentBlock"
+      >
+        <h2>
+          Rating
+          :
+        </h2>
+        <p>
+          4.3
+        </p>
+      </div>
+      <button
+        class="button"
+        type="button"
+      >
+        View/Hide Description
+      </button>
+    </div>
+    <div
+      class="movieBlock"
+    >
+      <div
+        class="contentBlock"
+      >
+        <h2>
+          Title
+          :
+        </h2>
+        <p>
+          Star Wars: Episode VI — Return of the Jedi
+        </p>
+      </div>
+      <div
+        class="contentBlock"
+      >
+        <h2>
+          Release Year
+          :
+        </h2>
+        <p>
+          1983
+        </p>
+      </div>
+      <div
+        class="contentBlock"
+      >
+        <h2>
+          Rating
+          :
+        </h2>
+        <p>
+          4.8
+        </p>
+      </div>
+      <button
+        class="button"
+        type="button"
+      >
+        View/Hide Description
+      </button>
+    </div>
+  </div>
+</div>
+`;

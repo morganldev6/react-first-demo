@@ -3,7 +3,7 @@ import Movie from "./Movie";
 import uuid from "uuid/v4";
 
 const Main = ({ movies }) => {
-  console.log(uuid());
+  console.log(movies);
   return (
     <div className="wrapper">
       {movies.map(movie => {
