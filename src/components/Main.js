@@ -1,12 +1,13 @@
 import React from "react";
-import Section from "./Section";
+import Movie from "./Movie";
 
-const Main = () => {
+const Main = ({ movies }) => {
   return (
-    <React.Fragment>
-      <Section className="bg" subhead="This is section One" />
-      <Section subhead="This is section Two" />
-    </React.Fragment>
+    <div className="wrapper">
+      {movies.map((movie, index) => {
+        return <Movie movie={movie} index={index} />;
+      })}
+    </div>
   );
 };
 

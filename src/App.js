@@ -1,9 +1,8 @@
 import React from "react";
 import "./App.css";
-// import Header from "./components/Header";
-// import Main from "./components/Main";
-// import Footer from "./components/Footer";
-import Movie from "./components/Movie";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 class App extends React.Component {
   constructor() {
@@ -25,14 +24,11 @@ class App extends React.Component {
   }
 
   render() {
-    const movies = this.state.movies.map((movie, index) => {
-      return <Movie movie={movie} index={index} />;
-    });
-
     return (
       <div>
-        <h2>Star Wars Movies</h2>
-        {movies}
+        <Header />
+        <Main movies={this.state.movies} />
+        <Footer />
       </div>
     );
   }
